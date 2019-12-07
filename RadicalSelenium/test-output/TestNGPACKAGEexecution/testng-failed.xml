@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGPACKAGEexecution]">
+  <test name="AllClassesFromPackage">
+    <packages>
+      <package name="Basic"/>
+    </packages>
+    <classes>
+      <class name="Basic.B18MySelectionList"/>
+      <class name="Basic.myalertandConfirmation"/>
+      <class name="Basic.Myassignment"/>
+      <class name="Basic.Myattachment"/>
+      <class name="Basic.MyDownload"/>
+      <class name="Basic.MyDragAndDrop"/>
+      <class name="Basic.MyfirstseleniumscriptChrome"/>
+      <class name="Basic.Myfirstseleniumscriptfirefox"/>
+      <class name="Basic.MyfirstseleniumscriptIE"/>
+      <class name="Basic.MyForm1test"/>
+      <class name="Basic.myFormTest"/>
+      <class name="Basic.myIframe"/>
+      <class name="Basic.MyimplicitWait"/>
+      <class name="Basic.MymultipleWindow"/>
+      <class name="Basic.Myscreenshot"/>
+      <class name="Basic.mySelectionList"/>
+      <class name="Basic.MyTable"/>
+      <class name="Basic.Tahbleutil"/>
+    </classes>
+  </test> <!-- AllClassesFromPackage -->
+  <test name="AllClassesFromPackage(failed)">
+    <classes>
+      <class name="Basic.Myfirstseleniumscriptfirefox">
+        <methods>
+          <include name="myFirstScriptFF"/>
+        </methods>
+      </class> <!-- Basic.Myfirstseleniumscriptfirefox -->
+      <class name="Basic.Tahbleutil">
+        <methods>
+          <include name="myselectionlist"/>
+        </methods>
+      </class> <!-- Basic.Tahbleutil -->
+      <class name="Basic.B18MySelectionList">
+        <methods>
+          <include name="testList"/>
+        </methods>
+      </class> <!-- Basic.B18MySelectionList -->
+      <class name="Basic.myFormTest">
+        <methods>
+          <include name="myFirstScriptFF"/>
+        </methods>
+      </class> <!-- Basic.myFormTest -->
+      <class name="Basic.myalertandConfirmation">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Basic.myalertandConfirmation -->
+      <class name="Basic.myIframe">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Basic.myIframe -->
+      <class name="Basic.MyTable">
+        <methods>
+          <include name="myselectionlist"/>
+        </methods>
+      </class> <!-- Basic.MyTable -->
+      <class name="Basic.Myscreenshot">
+        <methods>
+          <include name="myselectionlist"/>
+        </methods>
+      </class> <!-- Basic.Myscreenshot -->
+    </classes>
+  </test> <!-- AllClassesFromPackage(failed) -->
+</suite> <!-- Failed suite [TestNGPACKAGEexecution] -->
